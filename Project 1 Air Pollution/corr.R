@@ -1,3 +1,5 @@
+source("complete.R")
+
 corr <- function(directory, threshold = 0){
   # 'directory a character vector of length 1
   # location of the csv files
