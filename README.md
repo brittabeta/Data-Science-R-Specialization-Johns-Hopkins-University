@@ -8,7 +8,8 @@
 * developed by Nick Carchedi, Johns Hopkins Biostatistics
 * includes: bitops, RCurl, and swirl
   
-```# install swirl package
+```R
+# install swirl package
 install.packages("swirl")
 
 # check version of swirl 2.2.21 or later
