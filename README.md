@@ -24,8 +24,8 @@ ls()
 rm(list = ls())
 
 # start swirl
-swirl()```
-
+swirl()
+```
 
 ## Project 1 Air Pollution
 * Introduction
