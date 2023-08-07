@@ -2,6 +2,31 @@
 * [Course Textbook](https://leanpub.com/rprogramming?utm_source=coursera&utm_medium=CourseraEmail&utm_campaign=Coursera) 
 - [Also available here](https://www.lulu.com/shop/roger-peng/r-programming-for-data-science/paperback/product-22280814.html?page=1&pageSize=4) 
 
+## swirl
+* [swirl R package](https://swirlstats.com/)
+* Statistics with Interactive R Learning = SWIRL
+* developed by Nick Carchedi, Johns Hopkins Biostatistics
+* includes: bitops, RCurl, and swirl
+* ```# install swirl package
+install.packages("swirl")
+
+# check version of swirl 2.2.21 or later
+packageVersion("swirl")
+
+# install R Programming course
+install_from_swirl("R Programming")
+
+# load swirl
+library(swirl)
+
+# clean up
+ls()
+rm(list = ls())
+
+# start swirl
+swirl()```
+
+
 ## Project 1 Air Pollution
 * Introduction
 This project entails writing three functions that are meant to interact with with the specdata dataset provided by the course. 
